@@ -11,3 +11,5 @@ num = document.getElementById("numberBox");
 
  convertNumber(num.value);
 
+ console.log(convertNumber(num.value));
+
