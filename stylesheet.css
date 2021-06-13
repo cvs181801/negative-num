@@ -1,0 +1,69 @@
+:root {
+    --ff-Accent: 'Codystar', cursive;
+    --ff-Main: 'Meera Inimai', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: rgba(229, 22, 203, 1.0);
+    background: -webkit-linear-gradient(top right, rgba(229, 22, 203, 1.0), rgba(98, 143, 241, 1.0));
+    background: -moz-linear-gradient(top right, rgba(229, 22, 203, 1.0), rgba(98, 143, 241, 1.0));
+    background: linear-gradient(to bottom left, rgba(229, 22, 203, 1.0), rgba(98, 143, 241, 1.0));
+    flex-direction: column;
+    align-content: center;
+    font-family: var(--ff-Main);
+    font-size: 1rem;
+    /*background: -moz-linear-gradient(right,  rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245 );  For Firefox 3.6 to 15 
+    background: linear-gradient(to right, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245);  Standard syntax (must be last) */  
+    
+}
+
+h1 {
+        font-family: var(--ff-Accent);
+        text-align: center;
+        margin-bottom: 0;
+}    
+    
+h2 {
+        text-align: center;
+        margin: 0 auto 1em auto; 
+        font-size: 1.5em;
+        font-weight: 700;
+}
+p {
+        text-align: center;
+        margin-bottom: 1em; 
+        font-size: 1.5em;
+}
+    
+.text-box {
+        text-align: center;
+        margin-bottom: 1em;
+}
+    
+#buttonContainer {
+        width: 30em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+    
+#go-btn {
+            font-size: 2em;
+            font-family: var(--ff-Main);
+            background-color: aqua;
+}
+    
+@media (max-width: 600px) {
+    body {
+    flex-direction: column;
+    }
+    h1 {
+            font-size: 2em;
+    }
+}    
