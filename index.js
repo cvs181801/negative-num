@@ -9,6 +9,6 @@ num = document.getElementById("numberBox");
      return -(Math.abs(num.value));
 }
 
- convertNumber(num.value);
+ console.log(convertNumber(num.value));
 
 
