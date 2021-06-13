@@ -6,9 +6,9 @@ num = document.getElementById("numberBox");
 
  function convertNumber(num) {
      num = document.getElementById("numberBox");
-     -(Math.abs(3));
+     return -(Math.abs(num.value));
 }
 
- convertNumber(num);
+ convertNumber(num.value);
 
 
