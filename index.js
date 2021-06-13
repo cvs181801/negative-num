@@ -9,3 +9,4 @@ function convertNumber(num) {
     return -Math.abs(num);
 }
 
+convertNumber(88);
