@@ -18,6 +18,7 @@ body {
     align-content: center;
     font-family: var(--ff-Main);
     font-size: 1rem;
+    color: white;
     /*background: -moz-linear-gradient(right,  rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245 );  For Firefox 3.6 to 15 
     background: linear-gradient(to right, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245);  Standard syntax (must be last) */  
     
@@ -26,7 +27,8 @@ body {
 h1 {
     font-family: var(--ff-Main);
     text-align: center;
-    margin-bottom: auto;
+    margin-bottom: 3em;
+    color: white;
 }    
     
 h2 {
@@ -40,24 +42,25 @@ p {
     margin-bottom: 1em; 
     font-size: 3em;
     font-family: var(--ff-Accent);
+    color: white;
 }
     
 .container {
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
     
 #buttonContainer {
     width: 30em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 2em auto;
     text-align: center;
 }
     
 #go-btn {
     font-size: 2em;
     font-family: var(--ff-Main);
-    background-color: rgb(155, 155, 241);
+    background-color: rgb(9, 1, 29);
+    color: white;
 }
     
 @media (max-width: 600px) {
