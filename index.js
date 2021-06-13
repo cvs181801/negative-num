@@ -12,4 +12,4 @@ num = document.getElementById("numberBox");
 //  convertNumber(num.value);
 
 
-console.log(Math.abs(-3));
+console.log(-(Math.abs(3)));
