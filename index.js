@@ -11,7 +11,7 @@ const renderNumber = document.createElement('p');
      num = document.getElementById("numberBox");
      
     renderNumber.innerText = '';
-    if (num.value < 0 || num.value === 0) {
+    if (num.value < 1) {
         renderNumber.innerText = `Oops! Try it with a positive number instead!`;
     } else {
     renderNumber.innerText = `-${num.value}`;
