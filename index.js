@@ -10,9 +10,8 @@ const renderNumber = document.createElement('p');
  function convertNumber(num) {
      num = document.getElementById("numberBox");
      
-
     renderNumber.innerText = '';
-    renderNumber.innerText = `${num.value}`;
+    renderNumber.innerText = `-${num.value}`;
     parentDiv.append(renderNumber);
     return -(Math.abs(num.value));
 }
