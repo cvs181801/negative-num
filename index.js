@@ -11,11 +11,14 @@ const renderNumber = document.createElement('p');
      num = document.getElementById("numberBox");
      
     renderNumber.innerText = '';
+    if (num.value < 0 || num.value === 0) {
+        renderNumber.innerText = `Oops! Try it with a positive number instead!`;
+    } else {
     renderNumber.innerText = `-${num.value}`;
     parentDiv.append(renderNumber);
     return -(Math.abs(num.value));
+    }
 }
-
 
 //create an event listener that starts the vowel count when the user clicks on the 'go' button.
 goButton.addEventListener("click", function() {
